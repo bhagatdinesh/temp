@@ -1,0 +1,14 @@
+<application>
+  <component name="CodeStyleSchemesUIConfiguration">
+    <option name="RECENT_IMPORT_FILE_LOCATION" value="file:$USER_HOME$/Downloads/styleguide-gh-pages/intellij-java-google-style.xml" />
+  </component>
+  <component name="RefactoringSettings">
+    <option name="INTRODUCE_CONSTANT_VISIBILITY" value="public" />
+    <option name="INTRODUCE_CONSTANT_MOVE_TO_ANOTHER_CLASS" value="true" />
+    <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
+  </component>
+  <component name="StepicUpdateSettings">
+    <option name="lastTimeChecked" value="1479818068120" />
+    <option name="LAST_TIME_CHECKED" value="1479818068120" />
+  </component>
+</application>
