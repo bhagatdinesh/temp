@@ -25,8 +25,19 @@
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="ctrl f4" />
   </action>
+  <action id="CloseAllUnmodifiedEditors">
+    <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="meta w" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+    <keyboard-shortcut first-keystroke="meta minus" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+    <keyboard-shortcut first-keystroke="meta slash" />
   </action>
   <action id="CopyPaths">
     <keyboard-shortcut first-keystroke="shift meta c" />
@@ -58,6 +69,14 @@
   <action id="EditorPasteSimple">
     <keyboard-shortcut first-keystroke="shift meta alt v" />
   </action>
+  <action id="EvaluateExpression">
+    <keyboard-shortcut first-keystroke="ctrl u" />
+    <keyboard-shortcut first-keystroke="meta u" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+    <keyboard-shortcut first-keystroke="meta equals" />
+  </action>
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="ctrl h" />
     <keyboard-shortcut first-keystroke="meta h" />
@@ -76,6 +95,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl g" />
     <keyboard-shortcut first-keystroke="shift meta g" />
   </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
     <keyboard-shortcut first-keystroke="shift meta t" />
@@ -84,8 +106,27 @@
     <keyboard-shortcut first-keystroke="shift ctrl r" />
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="meta period" />
+  </action>
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="shift f1" />
+    <keyboard-shortcut first-keystroke="shift meta period" />
+  </action>
   <action id="Images.Thumbnails.Hide">
     <keyboard-shortcut first-keystroke="meta w" />
+  </action>
+  <action id="InsertLiveTemplate">
+    <keyboard-shortcut first-keystroke="shift ctrl alt j" />
+    <keyboard-shortcut first-keystroke="alt space" />
+  </action>
+  <action id="JumpToNextChange">
+    <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
   <action id="MethodHierarchy">
     <keyboard-shortcut first-keystroke="shift ctrl h" />
@@ -99,8 +140,18 @@
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift meta v" />
   </action>
+  <action id="QuickEvaluateExpression">
+    <keyboard-shortcut first-keystroke="ctrl alt f8" />
+    <mouse-shortcut keystroke="alt button1" />
+    <keyboard-shortcut first-keystroke="shift meta u" />
+  </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="meta f" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift alt x" />
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="meta r" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
@@ -117,4 +168,5 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
+  <action id="com.vladsch.idea.multimarkdown.editor.actions.styling.ListIndentAction" />
 </keymap>
