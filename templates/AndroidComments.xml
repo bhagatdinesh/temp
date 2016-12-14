@@ -26,10 +26,10 @@
     <variable name="todo" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="COMPLETION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="COMPLETION" value="true" />
     </context>
   </template>
   <template name="noop" value="/* no-op */" description="indicate that a method does not have any operations" toReformat="true" toShortenFQNames="true" deactivated="true">
@@ -42,10 +42,10 @@
     <variable name="todo" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="COMPLETION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="COMPLETION" value="true" />
     </context>
   </template>
   <template name="todo" value="// TODO: $date$ $todo$ " description="adds // TODO" toReformat="true" toShortenFQNames="true" deactivated="true">
@@ -53,10 +53,10 @@
     <variable name="todo" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="COMPLETION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="COMPLETION" value="true" />
     </context>
   </template>
 </templateSet>
